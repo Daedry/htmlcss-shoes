@@ -1,29 +1,72 @@
+/* common */
 :root{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.conteiner{
-    width: 100%;
-    height: 100%;
-    background-color: black;
+body{
+    font-family: 'Rubik Mono One', sans-serif;
 }
+
+p{
+    color: yellow;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    font-size: 36px;
+}
+
+/* utility */
 
 .shoe{
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    height: 715px;
+    position: relative;
+}
 
+.shoe-img{
+    width: 400px;
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
 }
+
+/* main */
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* colori */
+
 .shoe-red{
-    background-color: rgb(255, 0, 0);
+    background-color: red;
 }
+
 
 .shoe-green{
-    background-color:rgb(7, 155, 7);
+    background-color: green;
 }
 
 .shoe-yellow{
-    background-color: rgb(251, 255, 0);
+    background-color: yellow;
 }
+
+/* immagini e testo */
+
+
+
+.down{
+    display: block;
+    text-align: center;
+}
+
+.shoe-yellow>p{
+    color: green;
+}
+
 
